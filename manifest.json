@@ -1,0 +1,19 @@
+{
+  "name": "kubernetes docs dark theme",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Dark theme for kubernetes.io docs",
+  "icons": {
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://kubernetes.io/*", "https://kubernetes.io/*"],
+      "js": [
+        "dark.js"
+      ],
+      "css": [
+	"style.css"
+      ]
+    }
+  ]
+}

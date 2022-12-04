@@ -1,0 +1,13 @@
+*, .flip-nav .td-navbar {
+        background-color: #0f0f0f !important;
+        color: grey;
+}
+
+pre {
+        background-color: #0c0c0d !important;
+}
+
+span {
+        background-color: inherit !important;
+}
+
