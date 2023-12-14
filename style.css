@@ -1,10 +1,15 @@
-*, .flip-nav .td-navbar {
-        background-color: #0f0f0f !important;
+.flip-nav .td-navbar {
+        background-color: rgb(0, 0, 0) !important;
+        color: grey;
+}
+
+* {
+        background-color: #0f3142;
         color: grey;
 }
 
 pre {
-        background-color: #0c0c0d !important;
+        background-color: #092635 !important;
 }
 
 span {
